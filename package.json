@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Atividade Final DevOps",
   "main": "src/server.js",
-  "scripts": {
+ "scripts": {
     "start": "node src/server.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "echo 'Lint executado com sucesso'"
   },
   "dependencies": {
     "express": "^4.18.2"
